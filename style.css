@@ -253,3 +253,8 @@ hr.soft{
 .btn.fb svg{flex:none}
 .fb-inline{display:inline-flex;align-items:center;gap:.35rem}
 .fb-inline svg{flex:none;opacity:.85}
+
+
+/* home page ke hisse (vishay ke hisaab se) */
+.eyebrow.sect{margin:2.8rem 0 .9rem;padding-top:1.3rem;border-top:1px solid var(--rule)}
+.eyebrow.sect:first-of-type{border-top:0;padding-top:0}
