@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://msgitcl.github.io/quiet-progress-blog/</loc><priority>1.0</priority></url>
-  <url><loc>https://msgitcl.github.io/quiet-progress-blog/you-are-not-lazy/</loc><priority>0.8</priority></url>
-  <url><loc>https://msgitcl.github.io/quiet-progress-blog/the-boring-middle/</loc><priority>0.8</priority></url>
-  <url><loc>https://msgitcl.github.io/quiet-progress-blog/66-days-not-21/</loc><priority>0.8</priority></url>
+  <url><loc>https://msgitcl.github.io/quiet-progress-blog/</loc><lastmod>2026-09-02</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://msgitcl.github.io/quiet-progress-blog/you-are-not-lazy/</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://msgitcl.github.io/quiet-progress-blog/the-boring-middle/</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://msgitcl.github.io/quiet-progress-blog/66-days-not-21/</loc><lastmod>2026-09-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
