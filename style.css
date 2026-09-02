@@ -235,3 +235,42 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radi
   .lede{padding-top:3rem}
   .hero{margin:2rem auto 2.6rem}
 }
+
+
+/* ---- reels index (blog <-> reel ka jod) ---- */
+.standfirst{color:var(--muted);font-size:1.06rem;margin:0 0 .4rem}
+.reels{list-style:none;margin:2.6rem auto 0;padding:0;max-width:var(--measure)}
+.reels li{display:grid;grid-template-columns:184px minmax(0,1fr);gap:1.4rem;
+          align-items:start;padding:1.7rem 0;border-top:1px solid var(--hair)}
+.reels li:first-child{border-top:0;padding-top:.4rem}
+.reels .thumb{display:block;line-height:0;border-radius:8px;overflow:hidden;
+              background:var(--rule);box-shadow:0 10px 24px -20px rgba(0,0,0,.7)}
+.reels .thumb img{width:100%;height:auto;display:block;transition:transform .35s ease}
+.reels li:hover .thumb img{transform:scale(1.035)}
+.reels h2{font-size:1.24rem;line-height:1.3;margin:.15rem 0 .45rem}
+.reels h2 a{color:var(--ink);text-decoration:none}
+.reels h2 a:hover{color:var(--accent)}
+.reels .rid{font-family:"Instrument Sans",-apple-system,BlinkMacSystemFont,sans-serif;
+            font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+            color:var(--faint);margin:0}
+.reels .hook{font-size:1rem;line-height:1.5;color:var(--ink-soft);margin:0 0 .55rem}
+.reels .links{margin:0;font-family:"Instrument Sans",-apple-system,sans-serif;font-size:.86rem}
+.reels .links a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.reels .links a:hover{border-bottom-color:currentColor}
+.reels .links .w{margin-left:1rem;color:var(--muted)}
+@media (max-width:640px){
+  .reels li{grid-template-columns:1fr;gap:.85rem}
+}
+@media (prefers-reduced-motion:reduce){.reels .thumb img{transition:none}}
+
+/* ---- article ke andar: chhoti film dekhne ka nimantran ---- */
+.watch{margin:3rem 0 0;padding:1.6rem 0 0;border-top:1px solid var(--rule)}
+.watch .eyebrow{margin:0 0 .9rem}
+.watch-link{display:flex;align-items:center;gap:.85rem;text-decoration:none;
+            background:var(--sunk);border:1px solid var(--rule);border-radius:6px;
+            padding:1rem 1.2rem;color:var(--ink)}
+.watch-link:hover{border-color:var(--accent)}
+.watch-link svg{flex:none;color:var(--accent)}
+.watch-link>span{display:flex;flex-direction:column;gap:.15rem;min-width:0}
+.watch-link strong{font-size:1.08rem}
+.watch-link span span{color:var(--muted);font-size:.93rem}
