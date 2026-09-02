@@ -9,7 +9,7 @@ Plain HTML + one CSS file. No framework, no build step, no webfonts.
 - `.nojekyll` — serve files as-is, skip Jekyll
 - `sitemap.xml`, `robots.txt` — SEO
 
-Live: https://msgitcl.github.io/quiet-progress-blog/
+Live: https://quiet-progress.pages.dev/
 
 ## Adding a post
 Copy any essay folder, change the slug, then update in the new file:
