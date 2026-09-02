@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://msgitcl.github.io/quiet-progress-blog/sitemap.xml
